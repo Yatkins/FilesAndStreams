@@ -12,7 +12,7 @@ public class TextFileOutputDemo {
         
         //put the file in your Documents folder
         //TODO -- get the fileName from a command line argument
-        String fileName = homeFolder + "/Documents/out.txt";
+        String fileName = homeFolder + "/documents//" + args[0];
 
         //The PrintWriter class allows you to write out text to a file
         PrintWriter printWriter = null;
